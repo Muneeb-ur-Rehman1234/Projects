@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#back{
+    width: 100%;
+    height: 100vh;
+}
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+#work{
+    width: 80%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    pointer-events: all;
+}
+#nav #nleft{
+    display: flex;
+}
+#nav #nright{
+    display: flex;
+}
+#nav h5{
+    margin-left: 10px;
+    margin-top: 8vh;                       
+}
+#hero{
+    position: absolute;
+    top: 55%;
+    left: 0;
+    transform: translate(0%,-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  
+}
+#wleft{
+    width: 50%;
+}
+#wleft .elem{
+    height: 6vw;
+    position: relative;
+    overflow: hidden;
+}
+#wleft .elem h1:nth-child(1){
+    top: 0;
+}
+#wleft .elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-size: 5vw;
+    line-height:1;
+    font-weight: 700;
+}
+#wleft button{
+    background-color: white;
+    pointer-events: all;
+    color: black;
+    font-style: oblique;
+    padding: 1w 1.9vw;
+    margin-top: 0px;
+    font-size: large;
+    font-weight: bolder;
+};
+
+#wright {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#wright #imgdiv img{
+    width: 200px;
+    margin-top: 20px;
+    height: 140px;
+}
+#wright p {
+    text-align: right;
+    margin-top: 20px;
+    font-size: smaller;
+}

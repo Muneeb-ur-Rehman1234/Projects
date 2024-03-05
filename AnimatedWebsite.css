@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    background-color: white;
+}
+/* #home{
+
+} */
+#nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 3vw 5vw;
+}
+#nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-size: x-small;
+    font-weight: bold;
+    /* margin: 7px; */
+    padding: 1vw 1vw;
+}
+#nav #centeratag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: large;
+}
+#hero{
+    width: 100%;
+    padding: 3vw 5vw;
+    margin-top: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+#sustain{
+    width: 13vw;
+}
+#susimg{
+    width: 12vw;
+    height: 13.5vw;
+    margin-top: 10px;
+}
+#susimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#empheral {
+    width: 22vw;
+    min-height: 35vw;
+    position: relative;
+}
+#headings{
+    margin-top: -21%;
+    z-index: 99999;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;  
+}
+#headings h1{
+    font-weight: 100;
+    font-size: 2.5vw;
+    z-index: 9999;
+}
+#empheral img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover  ;
+    margin-top: 4%;
+}
+#empheral p{
+   color: black;
+   font-weight: 500 ;
+   margin-top: 5px;
+}
+#visit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+}
+#circlev{
+    width: 3vw;
+    height: 3vw;
+    margin-right: 1vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    gap: 20px;
+}
+#motive{
+    padding: 2vw 10vw;
+    align-items: center;    
+}
+#motive h4{
+    font-size: 2vw;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#motive p{
+    padding: 1vw 7vw;
+    /* display: flex; */
+    font-size: 1.3vw;
+    font-weight: 400 ;
+    line-height: 1.5;
+}
+#motive span {
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    margin-bottom: -7px;
+    background-color: red;
+    border-radius: 10px;
+}
+#motive #sp1{
+    background-image: url(https://storage.googleapis.com/pai-images/3d9495e4afcf4cf689beaf36b5fb7122.jpeg);
+    width: 50px;
+    height: 30px;
+    background-position: 0px 50px;
+    background-size: cover;
+}
+#motive #sp2{
+    background-image: url(https://storage.googleapis.com/pai-images/9741dc8e59a248a9a3a4afb7c0c9add3.jpeg);
+    width: 50px;
+    height: 30px;
+    background-size: cover;
+    background-position: 0px 100px;
+
+}
+#motive #sp3{
+    background-image: url(https://storage.googleapis.com/pai-images/50adc1b4f69f43f5829e91d5c33fa6d0.jpeg);
+    width: 50px;
+    height: 25px;
+    background-position: 0px 56px;
+    background-size: cover;
+}
+#simple{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 10vw;
+}
+#simple p{
+    line-height: 1;
+    font-weight: 500;
+    font-size: 1.2vw;
+    flex-wrap: wrap;
+    margin-top: 0.3vw;
+
+}
+#simple h3{
+    margin-top: 0.5vw;
+}
+#simple #sleft{
+    flex-wrap: wrap;
+   width: 20%;
+}
+#simple #sright {
+    width: 30%;
+   
+}
+#simple #sleft img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover; 
+  
+}
+#simple #sleft p{
+    flex-wrap: wrap;
+}
+#simple #sright {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+#simple #sright img{
+    justify-content: right;
+    width: 90%;
+    height: 80%;
+}
+#banner{
+    width: 100%;
+    display: flex;
+}
+#bimg {
+    width: 60%;
+    height: 70vh;
+}
+#bimg img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+#btxt {
+    margin-top: 25vh;
+    padding: 0vw 2vw;
+}
+#think{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0vw 0vw;
+    width: 100%;
+    height: 100vh;
+}
+#think h2 {
+    z-index: 9;
+}
+#think video{
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    object-fit: cover;
+}
+#think button{
+    padding: 1vw 2vw;
+    border-radius: 20px;
+    font-weight: bolder;
+    z-index: 9;
+    font-size: 1.5;
+}
